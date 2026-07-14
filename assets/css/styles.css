@@ -16,12 +16,12 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-.grid-container{
-	display: grid;
-	/* grid-template-columns: 1fr 1fr 1fr; */
-	grid-template-columns: repeat(auto-fit, minmax(320px, 1 fr));
-	gap: 2rem;
-	margin: 10% 4rem 0 4rem;
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+    margin: 10% 4rem 0 4rem;
 }
 
 .last {
