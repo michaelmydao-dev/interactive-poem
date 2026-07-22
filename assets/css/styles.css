@@ -33,3 +33,8 @@ background-size: cover;
     0% { opacity: 1; }
     100% { opacity: 0; }
 }
+
+body {
+    animation: fadeOut;
+    animation-duration: 2s;
+}
