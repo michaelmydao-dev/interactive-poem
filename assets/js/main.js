@@ -5,15 +5,15 @@ function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Define Div variable as all divs inside grid container
+// Define divs variable as all divs inside grid container
 let divs = document.querySelectorAll(".grid-container div");
 
-//Dfine Randomize function
+//Define Randomize function
 function randomize() {
-    console.log(divs.length, "randomiz!");
+    console.log(divs.length, "randomize!");
 
     //just the grid divs
-        divs.forEach(function (div){
+        divs.forEach( function (div) {
            let scale = randomNumber(.5, 1.2);
            let translateX = randomNumber( 0, 50)
            let translateY = randomNumber( 0, 20)
