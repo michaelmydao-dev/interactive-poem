@@ -16,7 +16,7 @@ function randomize() {
         divs.forEach(function (div){
            let scale = randomNumber(.5, 1.2);
            let translateX = randomNumber( 0, 50)
-           let translateY = randomNumber( 0, 200)
+           let translateY = randomNumber( 0, 20)
            let rotate = randomNumber(0, 360);
 
            // 50% of the time ...
